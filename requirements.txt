@@ -1,45 +1,49 @@
-# LangChain packages
-langchain==0.1.20
-langchain-community==0.1.12
-langchain-text-splitters==0.0.10
-langchain-openai==0.1.3
-langchain-huggingface==0.0.7
-langchain-chroma==0.3.0
-langchain-groq==0.1.2
-langchain-experimental==0.0.7
+# LangChain core packages
+langchain
+langchain-community
+langchain-text-splitters
+langchain-openai
+langchain-huggingface
+langchain-chroma
+langchain-groq
+langchain-experimental
 
-# Embeddings & vector stores
-chromadb==0.3.28
-faiss-cpu==1.7.4
-sentence-transformers==2.2.2
+# Vector DB / embeddings
+chromadb
+faiss-cpu
+sentence-transformers
 
-# APIs & utilities
-openai==0.27.10
-huggingface_hub==0.18.0
-arxiv==1.4.0
-wikipedia==1.4.0
-duckduckgo_search==3.8.0
+# APIs
+openai
+huggingface_hub
+arxiv
+wikipedia
+duckduckgo-search
+youtube-transcript-api
+pytube
+unstructured
 
-# Data & parsing
-pandas==2.1.1
-duckdb==1.8.1
-mysql-connector-python==8.1.1
-SQLAlchemy==2.0.24
-validators==0.28.1
-numexpr==2.8.6
-pymupdf==1.22.5
-pypdf==3.16.0
-beautifulsoup4==4.12.2
+# Data / DB / parsing
+pandas
+duckdb
+mysql-connector-python
+SQLAlchemy
+validators
+numexpr
+pymupdf
+pypdf
+bs4
+beautifulsoup4
 
-# Streamlit & UI
-streamlit==1.28.0
-streamlit-chat==0.0.2
-streamlit-mic-recorder==0.1.3
-streamlit-webrtc==0.48.1
-av==10.0.0
-pydub==0.25.1
-ipykernel==6.28.0
+# Streamlit + UI / interaction
+streamlit
+streamlit-chat
+streamlit-mic-recorder
+streamlit-webrtc
+av
+pydub
+ipykernel
 
-# Env
-python-dotenv==1.0.1
-requests==2.31.0
+# Environment / helpers
+python-dotenv
+requests
