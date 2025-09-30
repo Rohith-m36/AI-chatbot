@@ -13,37 +13,34 @@ chromadb
 faiss-cpu
 sentence-transformers
 
-# APIs
-openai
-huggingface_hub
+# DuckDuckGo search dependency
+ddgs
+
+# Utilities
+python-dotenv
+ipykernel
+pypdf
+pymupdf
+bs4
+beautifulsoup4
 arxiv
 wikipedia
-duckduckgo-search
-youtube-transcript-api
-pytube
-unstructured
-
-# Data / DB / parsing
-pandas
 duckdb
+pandas
+openai
 mysql-connector-python
 SQLAlchemy
 validators
+youtube-transcript-api
+unstructured
+pytube
 numexpr
-pymupdf
-pypdf
-bs4
-beautifulsoup4
+huggingface_hub
 
-# Streamlit + UI / interaction
+# Streamlit + UI components
 streamlit
 streamlit-chat
 streamlit-mic-recorder
 streamlit-webrtc
 av
 pydub
-ipykernel
-
-# Environment / helpers
-python-dotenv
-requests
