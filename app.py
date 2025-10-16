@@ -16,13 +16,13 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from streamlit_mic_recorder import speech_to_text
 import re
 
-# ------------------- CONFIG -------------------
+##### ------------------- CONFIG -------------------
 load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 
 st.set_page_config(page_title="AI Chatbot", page_icon="🤖", layout="wide")
 
-# ------------------- CUSTOM CSS -------------------
+####------------------- CUSTOM CSS -------------------
 st.markdown("""
     <style>
     body {
@@ -219,3 +219,4 @@ if prompt:
 
     # Save final message
     st.session_state.messages.append({"role": "assistant", "content": response})
+
