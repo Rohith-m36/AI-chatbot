@@ -1,0 +1,43 @@
+# --- Core LangChain Ecosystem ---
+langchain>=0.3.12
+langchain-core>=0.3.25
+langchain-community>=0.3.12
+langchain-huggingface>=0.0.8
+langchain-groq>=0.2.0
+
+# --- Data & Document Loaders ---
+pypdf
+pymupdf
+bs4
+arxiv
+wikipedia
+unstructured
+duckdb
+pandas
+
+# --- Embeddings & Vector DBs ---
+chromadb
+faiss-cpu
+sentence-transformers
+huggingface_hub
+
+# --- APIs & Connectors ---
+openai
+mysql-connector-python
+SQLAlchemy
+
+# --- Utilities ---
+python-dotenv
+validators
+numexpr
+ipykernel
+
+# --- Search & Media ---
+duckduckgo-search
+youtube-transcript-api
+pytube
+yt-dlp
+gtts
+streamlit
+streamlit-mic-recorder
+pydub
